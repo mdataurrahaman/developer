@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1400px) {
+   
+    .nav-link{
+        font-size: 16px ;
+        margin: auto 14px;
+       
+  }
+}
+  @media only screen and (max-width: 1200px) {
+    .nav-link {
+      margin: auto 8px;
+      font-size: 14px ;
+  }
+  .model-col{
+    margin-top: 0px;
+    
+    
+    
+  }
+
+  }
+  @media only screen and (max-width: 991px) {
+
+    .nav-link{
+        font-size: 12px;
+        margin: auto 8px;
+
+       
+     }
+     .model-col{
+      margin-top: 100px;
+      
+      
+    }
+
+    .about{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+    .project-btn{
+      margin: 8px auto ;
+    }
+    .project-demo{
+      width: 100%;
+      padding: 0 12px;
+      text-align: center;
+      
+    }
+    
+
+    }
+    
+  @media only screen and (max-width: 768px) {
+   
+     .model-col{
+      margin-top: 90px ;
+     
+      
+    }
+    .project-btn{
+      font-size: 14px;
+    }
+    .testimonial-title{
+      font-size: 50px;
+    }
+
+    .Proposal-title{
+      font-size: 50px;
+      
+      }
+
+    
+  }
+  @media only screen and (max-width: 576px) {
+    .model-col{
+      margin-top: 70px ;
+      
+      
+    }
+    .service-card{
+      width: 100%;
+    }
+    .service-icon{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+    .service-item-title{
+      text-align: center;
+    }
+    .footer-logo{
+      width: 90%;
+      height: auto;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 320px) {
+    
+    .model-col{
+      margin-top: 0px ;
+      
+      
+    }
+    
+    .testimonial-title{
+      font-size: 40px;
+    }
+    .Proposal-title{
+      font-size: 40px;
+      
+      }
+
+    
+  }
+ 

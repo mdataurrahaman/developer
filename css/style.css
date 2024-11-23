@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.nav-link{
+    font-size: 20px ;
+    margin: auto 18px;
+}
+.section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-text-col{
+  margin-top: 60px;
+}
+
+.hero-description{
+  text-align: justify !important;
+}
+.hero-text-bg{
+  height: 100%;
+  
+}
+.hero-model-bg{
+  height: 100%;
+  margin-top:100px;
+}
+.model-col{
+  margin-top: 0px;
+  
+  
+}
+  
+.model-bg{
+  width: 80%;
+  
+}
+.hero-circle{
+  width: 100%;
+  height: 100%;
+}
+.hero-model{
+  width: 100%;
+  height: 130%;
+    
+}
+.model-2{
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.social-icon-box .list-group{
+  column-gap: 12px;
+} 
+.social-icon-box .list-group-item{
+  border: 0;
+  padding: 0;
+  font-size: 40px;
+}
+.about{
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.about-title{
+  font-weight: 600;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.about-description{
+  text-align: justify;
+}
+.about-skill{
+  /* padding: 2px 12px; */
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.progress{
+  margin-top: 5px;
+  margin-bottom: 24px;
+  overflow: visible;
+  height: 10px;
+  
+}
+.progress-bar{
+  position: relative;
+  overflow: visible;
+}
+
+.progress-bar::after{
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 3px solid #ff0095fb;
+  right: -5px;
+  
+  position: absolute;
+  z-index: 1;
+  
+
+  
+}
+.service-section{
+  padding: 50px 0;
+}
+.service-title{
+  font-weight: 600;
+  font-size: 50px;
+}
+.service-description{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.service-card{
+  width: 330px;
+}
+.service-icon{
+  width: 50px;
+  height: 60px;
+  margin-top: 20px;
+}
+.service-item-inner{
+  background-color: #F8F8F8;
+  
+}
+.service-item-title{
+  margin: 12px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+.service-item-description{
+  text-align: justify;
+  padding-bottom: 12px;
+}
+.my-project-title{
+  font-weight: 600;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.my-project-description{
+  font-weight: 500;
+  font-size: 20px;
+  margin: 30px auto;
+  text-align: justify;
+  max-width: 920px;
+  margin: 8px;
+
+}
+
+.project-btn-box{
+  max-width: 800px;
+  margin: 20px 0;
+  
+}
+.project-btn{
+  border: 1px solid #545454;
+  background-color: #F8F8F8;
+  font-size: 24px;
+}
+.project-btn:hover {
+  border: 0;
+  background-color: #FD6F00;
+}
+.project-demo-box{
+  margin-top: 40px;
+}
+.project-demo{
+  width: 33%;
+ margin: 0 5px ;
+}
+.project-demo-inner{
+  background-color: #FFEBDB;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+.progressive-img{
+  width: 100%;
+  height: auto;
+}
+.project-demo-item{
+  color: #FD6F00;
+  margin-bottom: 12px;
+}
+.project-demo-type{
+  font-weight: 400;
+  font-size: 22px;
+}
+.testimonial-title{
+  font-size: 65px;
+}
+.testimonial-descriptiion{
+  max-width: 900px;
+ margin: auto;
+ text-align: justify;
+ font-size: 18px;
+}
+.slider-bg{
+  background-color: #F8F8F8;
+  max-width: 1080px;
+  border-radius: 14px;
+  
+}
+
+
+.comment{
+  text-align: justify;
+  max-width: 650px;
+  
+}
+.comment-Punctuation{
+  color: #FD6F00;
+  font-size: 20px;
+}
+.slick-dots li {
+	
+	width: 50px;
+	height: 16px;
+  border-radius: 8px;
+	background-color: #D9D9D9;
+}
+.slick-dots li button::before {
+		font-size: 0;
+}
+.slick-dots .slick-active button {
+  width: 50px;
+	height: 16px;
+  border-radius: 8px;
+  background-color: #FD6F00;
+
+}
+
+
+.Proposal-title{
+font-size: 65px;
+text-align: center;
+margin-top: 40px;
+}
+
+.Proposal-description{
+  text-align: justify;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.proposal-Interaction{
+  max-width: 900px;
+  margin-bottom: 80px;
+  
+}
+.form-control{
+  max-width: auto;
+  min-width: auto;
+  background-color: #F8F8F8;
+  border: 2px solid #AFAFAF;
+}
+
+.form-control::placeholder {
+  color: #797979;
+  
+}
+.proposal-btn{
+  color: #fff;
+  background-color: #FD6F00;
+}
+
+.footer-section{
+  background-color: ;
+}
+.footer-nav .list-group-item {
+  border: none;
+}
+
+ .list-group-item {
+ width: auto;
+ 
+}
+.footer-social .list-group-item{
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+.Rights-Reserved{
+  background-color: #545454;
+  color: #F8F8F8;
+  margin-top: 40px;
+}
+
+.Rights-Reserved span{
+  
+  color: #FD6F00;
+}

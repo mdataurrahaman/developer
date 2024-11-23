@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slick Slider Demo</title>
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+    <style>
+        /* Custom styles for slider */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .slider {
+            width: 80%;
+            margin: 50px auto;
+        }
+        .slider img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .slick-prev, .slick-next {
+            color: #000;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slider">
+        <div><img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1"></div>
+        <div><img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 2"></div>
+        <div><img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3"></div>
+        <div><img src="https://via.placeholder.com/800x400?text=Slide+4" alt="Slide 4"></div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                infinite: true,         // Loop through slides
+                slidesToShow: 2,        // Show 2 slides at once
+                slidesToScroll: 1,      // Scroll one slide at a time
+                autoplay: true,         // Enable autoplay
+                autoplaySpeed: 2000,    // 2 seconds per slide
+                dots: true,             // Enable navigation dots
+                arrows: true,           // Enable previous/next arrows
+            });
+        });
+    </script>
+
+</body>
+</html>
